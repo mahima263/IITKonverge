@@ -1,8 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.querySelector(".navbar-toggler");
-    const navLinks = document.querySelector("#navbarNav");
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
 
-    menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("show");
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            // Collapse menu on link click
+            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                toggle: false
+            });
+            bsCollapse.hide();
+        });
     });
 });
