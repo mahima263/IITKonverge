@@ -10,7 +10,20 @@ body {
     background-color: #f8f9fa;
     padding-top: 80px;
 }
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
 
+/* Paragraphs & body text */
+body, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Subheadings / accents */
+h5, h6, .card-heading, .nav-link {
+    font-family: 'Barlow', sans-serif;
+}
 /* ✅ Navbar */
 .navbar {
     background: rgba(255, 255, 255, 0.95);
@@ -73,7 +86,7 @@ body {
 .approach {
     position: relative;
 
-    background: #cb6d51;
+    background: #B04B34 ;
     text-align: center;
     color: white;
     margin-left: 80px;
@@ -112,7 +125,7 @@ body {
 }
 
 .collaborative {
-    background:#C85A40;
+    background:#B04B34 ;
 }
 
 .impact {
@@ -120,7 +133,7 @@ body {
 }
 .approach {
     position: relative;
-    background: #cc5c43; /* Your background color */
+    background: #B04B34 ; /* Your background color */
     text-align: center;
     z-index: 2; /* Ensures it is above the banner */
     margin-top: -100px; /* Adjust this value to control overlap */
@@ -150,12 +163,14 @@ body {
 }
 
 .collaborative {
-    background: var(--sundew-red-shade, linear-gradient(124deg, #AA552A 45%, #DC5D4F 100%));
+    background: var(--sundew-red-shade,linear-gradient(124deg, #AA552A 45%, #DC5D4F 100%));
     color:white;
 }
 
 .impact {
-   background: linear-gradient(301deg, #F6D55C 0%, #CA9752 90%);;
+   background:  linear-gradient(301deg, #F6D55C 0%, #CA9752 90%);
+
+
 }
 
 .donors-section {
@@ -170,7 +185,7 @@ body {
     color:black !important;
 }
 .donors-section p {
-    color: black !important;
+    color:#4B4B4B   !important;
 }
 .highlight-text {
     color: #E45C2C; /* Orange-Red */
@@ -212,14 +227,14 @@ body {
 .bold-text {
     font-size: 48px;
     font-weight: 700;
-    color: #000;
+    color: #4B4B4B  ;
     margin-bottom: 5px;
 }
 
 .stat-item p {
     font-size: 18px;
     font-weight: 500;
-    color: #333;
+    color: #4B4B4B  ;
     margin: 0;
 }
 /* ✅ Make images fully responsive */
@@ -254,9 +269,9 @@ body {
     background-color: #e7e7e7;
     padding: 15px 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
-    color: #000;
+    color: #4B4B4B  ;
     max-width: 1200px;
     border-radius: 30px 30px 30px 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -266,8 +281,11 @@ body {
 .join-section {
     background: #f2f2f2;
     padding: 60px 0;
-}
 
+}
+.join-section  h2{
+    color: #B04B34;
+}
 .text-content {
     padding-right: 40px;
 }
@@ -280,7 +298,8 @@ body {
 }
 
 .sec5content {
-    font-size: 18px;
+    font-size: 24px;
+    color:  #4B4B4B;
 }
 
 .img-fluid1 {
